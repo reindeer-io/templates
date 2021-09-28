@@ -1,0 +1,73 @@
+{
+    "variables": {
+        "title": {
+            "type": "text",
+            "label": "Banner Title",
+            "comment": "Enter a title for your offer",
+            "placeholder": "Your offer title",
+            "constraints": {
+                "maxlen": 50,
+                "maxlensoft": 30,
+                "required": true
+            }
+        },
+        "sub_title": {
+            "type": "text",
+            "label": "Banner Sub-Title",
+            "comment": "Enter a sub-title for your offer",
+            "placeholder": "Your offer sub-title",
+            "constraints": {
+                "maxlen": 50,
+                "maxlensoft": 30
+            }
+        },
+        "small_text": {
+            "type": "text",
+            "label": "Small Text",
+            "default": "T&Cs Apply"
+        },
+        "interest_months": {
+            "type": "text",
+            "label": "Interest free Month",
+            "comment": "Leave blank to remove badge",
+            "default": "30",
+            "constraints": {
+                "maxlen": 2,
+                "maxlensoft": 2
+            }
+        },
+        "hot_price": {
+            "label": "Hot Price badge",
+            "type": "select",
+            "default": "show",
+            "options": {
+                "show": "Show Badge",
+                "hide": "Hide Badge"
+            }
+        },
+        "product_image": {
+            "type": "image",
+            "default": "https://collab-prod.s3.ap-southeast-2.amazonaws.com/template-assets/tpc001a/product.png"
+        },
+        "s3_bucket_path": {
+            "type": "hidden",
+            "default": "https://collab-prod.s3.ap-southeast-2.amazonaws.com/template-assets/tpc001a"
+        },
+        "cta_url": {
+            "label": "Button Link",
+            "type": "link",
+            "comment": "Link to product page",
+            "constraints": {
+                "required": true
+            }
+        },
+        "cta_label": {
+            "type": "text",
+            "label": "Button Label",
+            "default": "SHOP NOW",
+            "constraints": {
+                "required": true
+            }
+        }
+    }
+}

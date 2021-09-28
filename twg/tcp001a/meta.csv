@@ -1,0 +1,9 @@
+Variable,Type,Default Value
+title,text,Your offer title
+sub_title,text,Your offer sub-title
+small_text,text,T&Cs Apply
+interest_months,text,30
+hot_price,select,show|hide
+product_image,image,product.png
+cta_url,link,
+cta_label,text,SHOP NOW
