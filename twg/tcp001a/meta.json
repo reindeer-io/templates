@@ -46,6 +46,7 @@
             }
         },
         "product_image": {
+            "label": "Product image",
             "type": "image",
             "default": "https://collab-prod.s3.ap-southeast-2.amazonaws.com/template-assets/tpc001a/product.png"
         },
